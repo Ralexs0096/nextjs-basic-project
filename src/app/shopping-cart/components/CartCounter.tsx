@@ -1,12 +1,9 @@
 'use client';
-
 import { useState } from 'react';
 
 interface Props {
   value?: number;
 }
-
-
 
 export const CartCounter = ({  value = 0 }: Props) => {
 
