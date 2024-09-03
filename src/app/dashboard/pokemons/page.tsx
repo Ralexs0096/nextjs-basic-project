@@ -2,7 +2,7 @@ import PokemonGrid from '@/pokemons/components/PokemonGrid';
 import { PokemonsResponse } from '@/pokemons/interfaces/pokemons-response';
 import { SimplePokemon } from '@/pokemons/interfaces/simple-pokemon';
 
-const getPokemons = async (
+export const getPokemons = async (
   limit = 20,
   offset = 0
 ): Promise<SimplePokemon[]> => {
